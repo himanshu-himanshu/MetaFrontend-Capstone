@@ -3,6 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
-.nav {
-  color: red;
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+ list-style-type: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 140px;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+
+.logo_image {
+  width: 200px
+}
+
+.nav_links {
+  padding: 20px;
+}
+
+.nav_links ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.nav_links a {
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+  font-size: 15px;
 }
