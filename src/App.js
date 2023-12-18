@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
 import Nav from "./components/Nav";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Nav />
       <Hero />
+      <Highlights />
     </>
   );
 }

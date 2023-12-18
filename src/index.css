@@ -103,3 +103,65 @@ nav {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-left: 5px;
 }
+
+/********* HERO SECTION DESIGN **********/
+
+.highlight_wrapper {
+  padding: 60px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.top_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_div {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.card_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 0 10px 10px 10px;
+}
+
+.title_div {
+  padding: 5px 20px;
+  color: #333333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 40;
+}
+
+.desc_div {
+  padding: 5px 20px;
+}
+
+.card_wrapper img {
+  width: 100%;
+}
+
+.orderNow {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: rgb(251, 129, 6);
+}
+
+.btn-orderOnline {
+  padding: 18px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgb(255, 162, 69);
+  border: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 5px;
+}
