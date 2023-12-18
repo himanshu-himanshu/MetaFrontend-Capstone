@@ -107,7 +107,7 @@ nav {
 /********* HERO SECTION DESIGN **********/
 
 .highlight_wrapper {
-  padding: 60px 140px;
+  padding: 120px 140px;
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -167,7 +167,7 @@ nav {
 }
 
 .about_wrapper {
-  padding: 60px 140px;
+  padding: 80px 140px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -187,9 +187,32 @@ nav {
 .left_div p {
   margin-top: 30px;
   font-size: 1rem;
+  color: #222222;
 }
 
 .right_div img {
   width: 330px;
   padding: 0;
+}
+
+footer {
+  background-color: #222222;
+  padding: 60px 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+footer img {
+  width: 100px;
+}
+
+.contact_div .social_div, p, li {
+  padding: 4px;
+  color: #dddddd;
+}
+
+.link_div a{
+  padding: 4px;
+  color: #dddddd;
 }
